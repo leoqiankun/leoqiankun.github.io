@@ -58,7 +58,7 @@ p {
 
 section {
 	padding-top: 50px;
-	margin-top: 50px;
+	margin-top: 0;
 }
 
 .container {
@@ -162,11 +162,12 @@ nav {
 
 .contactContainer {
 	background-color: #000;
-	padding: 30px 300px;
-	margin: auto 100px;
+	padding: 10px 10px;
+	margin: 10px 10px;
 	line-height: 10px;
 	cursor: pointer;
 	display: inline-block;
+	position: relative;
 	
 }
 
@@ -180,6 +181,10 @@ nav {
 	width: 200px;
 	height: 200px;
 	display: inline-block;
+}
+#skills {
+	background-color: #ffebcc;
+	
 }
 
 .skill {
@@ -223,7 +228,7 @@ nav {
 }
 
 .text p {
-	color: #b35900;
+	color: #ffc266;
 }
 
 .text:hover {
@@ -232,6 +237,7 @@ nav {
 
 #projects {
 	background-color: #cccccc;
+	
 }
 
 .projectLinks {
@@ -250,7 +256,40 @@ nav {
 	cursor: pointer;
 }
 
-@media
+#experience {
+	background-color: #ffeee6;
+	height: 100%;
+	
+}
+
+.expContainer {
+	text-align: center;
+	margin-top: 30px;
+	padding-top: 30px;
+	font-size: 20px;;
+}
+
+
+
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+	height: 900px;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+	height: 750px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+	height: 500px;
+  }
+}
+
 
 
 
