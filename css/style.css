@@ -130,7 +130,7 @@ nav {
 }
 
 #home {
-	background: url(../images/3.jpg) no-repeat 50% 50%;
+	background: url(../images/3.jpg) no-repeat 50% 50%; 
 	background-attachment: fixed;
 	background-size: cover;
 	width: 100%;
